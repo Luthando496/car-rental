@@ -5,7 +5,7 @@ import carImage from '../assets/images/joshua-koblin-eqW1MPinEV4-unsplash-remove
 
 const Header = () => {
   return (
-    <header className='py-20 px-10 my-bg'>
+    <header className='py-10 px-4  md:px-10 my-bg'>
       <div className="grid grid-cols-1  md:grid-cols-2 my-2-cols  justify-center">
         <article className="col-span-1  mx-auto text-center md:text-left">
         <div className="w-full ">

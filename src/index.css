@@ -25,3 +25,12 @@
   }
   
 } */
+
+.text-star::after{
+  content: "*";
+  font-size: 30px;
+  color: #ff0d0d;
+  position: absolute;
+  top: 0px;
+  right: -18px;
+}
