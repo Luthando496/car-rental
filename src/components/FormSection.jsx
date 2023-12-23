@@ -8,7 +8,7 @@ const FormSection = () => {
         <form  className="w-full p-6 shadow-lg">
             <h3 className="text-xl font-bold">Book a car</h3>
 
-            <div className="grid grid-cols-3 gap-4 mt-10 items-center">
+            <div className="grid grid-cols-3 gap-x-4 mt-10 items-center gap-y-10">
 
             <article className="w-full col-span-1">
                 <div className="flex items-center gap-6">
@@ -93,7 +93,7 @@ const FormSection = () => {
             </article>
 
             {/*  */}
-            <button className="self-end  text-white bg-yellow-600 py-5 px-4 hover:shadow-2xl duration-700">
+            <button className="self-end  text-white bg-yellow-500 py-4 px-4 hover:shadow-2xl duration-700 text-lg font-semibold tracking-[2px]">
                 Search
             </button>
 
