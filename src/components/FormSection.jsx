@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaCarSide } from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
+import { MdLocationOn } from "react-icons/md";
 
 const FormSection = () => {
   return (
@@ -29,7 +29,7 @@ const FormSection = () => {
 
             <article className="w-full col-span-1">
                 <div className="flex items-center gap-6">
-                <FaLocationDot rSide size={30} className='' /> <p className="font-semibold text-lg relative text-star">Pick Up</p>
+                <MdLocationOn size={30} className='' /> <p className="font-semibold text-lg relative text-star">Pick Up</p>
                 </div>
                <select name="" id="" className='w-full bg-gray-400/40 mt-6 px-8 py-4 tracking-[2px]'>
                  <option value="">Select Car Type</option>
@@ -46,7 +46,7 @@ const FormSection = () => {
 
             <article className="w-full col-span-1">
                 <div className="flex items-center gap-6">
-                <FaLocationDot size={30} className='' /> <p className="font-semibold text-lg relative text-star">Drop off</p>
+                <MdLocationOn size={30} className='' /> <p className="font-semibold text-lg relative text-star">Drop off</p>
                 </div>
                <select name="" id="" className='w-full bg-gray-400/40 mt-6 px-8 py-4 tracking-[2px]'>
                  <option value="">Select</option>
@@ -62,7 +62,7 @@ const FormSection = () => {
             {/*  */}
             <article className="w-full col-span-1">
                 <div className="flex items-center gap-6">
-                <FaLocationDot size={30} className='' /> <p className="font-semibold text-lg relative text-star">Drop off</p>
+                <MdLocationOn size={30} className='' /> <p className="font-semibold text-lg relative text-star">Drop off</p>
                 </div>
                <select name="" id="" className='w-full bg-gray-400/40 mt-6 px-8 py-4 tracking-[2px]'>
                  <option value="">Select</option>
@@ -79,7 +79,7 @@ const FormSection = () => {
 
             <article className="w-full col-span-1">
                 <div className="flex items-center gap-6">
-                <FaLocationDot size={30} className='' /> <p className="font-semibold text-lg relative text-star">Drop off</p>
+                <MdLocationOn size={30} className='' /> <p className="font-semibold text-lg relative text-star">Drop off</p>
                 </div>
                <select name="" id="" className='w-full bg-gray-400/40 mt-6 px-8 py-4 tracking-[2px]'>
                  <option value="">Select</option>

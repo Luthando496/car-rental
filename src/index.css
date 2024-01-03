@@ -17,14 +17,12 @@
   }
   
 }
-/* 
-@media screen and (max-width:799px) {
-  .{
-    font-size: 15px;
-    font-weight: 600;
-  }
-  
-} */
+.faq_box{
+transition-property: all;
+transition-duration: 0.4s;
+transition-timing-function: ease;
+transition-delay: 0s;
+}
 
 .text-star::after{
   content: "*";
@@ -33,4 +31,19 @@
   position: absolute;
   top: 0px;
   right: -18px;
+}
+
+.bg-image{
+  background: linear-gradient(rgba(139, 136, 136, 0.048),rgba(190, 184, 184, 0.034)),url('./assets/images/mobile-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 70vh;
+}
+
+@media screen and (max-width:1000px) {
+  .bg-image{
+    background:linear-gradient(rgba(139, 136, 136, 0.048),rgba(190, 184, 184, 0.034));
+  }
+  
 }
