@@ -1,5 +1,6 @@
 import logo from '../assets/images/Untitled design.png'
 import { RxHamburgerMenu } from "react-icons/rx";
+import {Link} from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -10,22 +11,22 @@ const Navbar = () => {
 
             <ul className="hidden lg:flex items-center gap-10">
                 <li className="">
-                    <a className='text-lg font-semibold my-text hover:text-yellow-300 duration-500' href="http://">Home</a>
+                    <Link to='/' className='text-lg font-semibold my-text hover:text-yellow-300 duration-500'>Home</Link>
                 </li>
                 <li className="">
-                    <a className='text-lg font-semibold my-text hover:text-yellow-300 duration-500' href="http://">About</a>
+                    <Link to='/about' className='text-lg font-semibold my-text hover:text-yellow-300 duration-500'>About</Link>
                 </li>
                 <li className="">
-                    <a className='text-lg font-semibold my-text hover:text-yellow-300 duration-500' href="http://"> Vehicle Models</a>
+                    <Link to='/' className='text-lg font-semibold my-text hover:text-yellow-300 duration-500'> Vehicle Models</Link>
                 </li>
                 <li className="">
-                    <a className='text-lg font-semibold my-text hover:text-yellow-300 duration-500' href="http://">Testimonials</a>
+                    <Link to='/testimonial' className='text-lg font-semibold my-text hover:text-yellow-300 duration-500'>Testimonials</Link>
                 </li>
                 <li className="">
-                    <a className='text-lg font-semibold my-text hover:text-yellow-300 duration-500' href="http://">Our Team</a>
+                    <Link to='/team' className='text-lg font-semibold my-text hover:text-yellow-300 duration-500'>Our Team</Link>
                 </li>
                 <li className="">
-                    <a className='text-lg font-semibold my-text hover:text-yellow-300 duration-500' href="http://">Contact</a>
+                    <Link to='/contact' className='text-lg font-semibold my-text hover:text-yellow-300 duration-500'>Contact</Link>
                 </li>
             </ul>
 

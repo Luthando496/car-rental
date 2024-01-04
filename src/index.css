@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -46,4 +49,12 @@ transition-delay: 0s;
     background:linear-gradient(rgba(139, 136, 136, 0.048),rgba(190, 184, 184, 0.034));
   }
   
+}
+
+.bg-about{
+  background: linear-gradient(rgba(80, 79, 64, 0.377),rgba(170, 141, 141, 0.26)),url('./assets/images/pexels-abdulwahab-alawadhi-3422964.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 70vh;
 }
