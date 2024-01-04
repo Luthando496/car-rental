@@ -52,9 +52,16 @@ transition-delay: 0s;
 }
 
 .bg-about{
-  background: linear-gradient(rgba(80, 79, 64, 0.377),rgba(170, 141, 141, 0.26)),url('./assets/images/pexels-abdulwahab-alawadhi-3422964.jpg');
+  background: linear-gradient(rgba(80, 79, 64, 0.103),rgba(170, 141, 141, 0.021)),url('./assets/images/pexels-abdulwahab-alawadhi-3422964.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 70vh;
+  min-height: 60vh;
+}
+
+.bg-number{
+  background: linear-gradient(rgba(24, 23, 13, 0.699),rgba(32, 31, 31, 0.637)),url('./assets/images/pexels-mike-bird-112460.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

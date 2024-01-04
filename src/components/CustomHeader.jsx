@@ -6,8 +6,7 @@ const CustomHeader = ({title}) => {
   return (
     <>
       <Navbar />
-
-      <div className="w-full absolute top-0 left-0 -z-10 bg-gray-200 bg-about flex items-center px-10">
+      <div className="w-full  bg-about flex items-center px-10">
         <div className="flex gap-2 items-center">
           <Link
             to="/"

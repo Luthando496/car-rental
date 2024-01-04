@@ -23,10 +23,9 @@ const Testimonials = () => {
         {/*  */}
         <div className="w-full col-span-1 shadow-lg shadow-slate-200 px-4 py-6 space-y-2 bg-white">
           <h4 className="text-lg md:text-2xl font-semibold">
-            "We rented a car from this website and had <br />
-            an amazing experience! The booking was easy and the rental rates
-            were
-            <br /> very affordable. "
+            "The car was in great condition and made<br /> our trip even better.
+            Highly recommend for this car rental website!
+            "
           </h4>
 
           <div className="flex gap-4 items-center pt-6">
@@ -36,7 +35,9 @@ const Testimonials = () => {
               className="w-14 h-14 lg:w-28 lg:h-28 object-cover rounded-full"
             />
             <div className="flex flex-col ">
-              <h3 className="text-xl lg:text-3xl font-semibold">Jonathan Smith</h3>
+              <h3 className="text-xl lg:text-3xl font-semibold">
+                Jonathan Smith
+              </h3>
               <p className="text-gray-600 font-semibold capitalize">
                 Cape Town
               </p>
@@ -60,7 +61,9 @@ const Testimonials = () => {
               className="w-14 h-14 lg:w-28 lg:h-28 object-cover rounded-full"
             />
             <div className="flex flex-col ">
-              <h3 className="text-xl lg:text-3xl font-semibold">Jonathan Smith</h3>
+              <h3 className="text-xl lg:text-3xl font-semibold">
+                Jonathan Smith
+              </h3>
               <p className="text-gray-600 font-semibold capitalize">
                 Cape Town
               </p>

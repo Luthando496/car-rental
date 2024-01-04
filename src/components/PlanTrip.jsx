@@ -5,7 +5,7 @@ import carClouds from '../assets/images/car-clouds.png'
 
 const PlanTrip = () => {
   return (
-    <section className='my-20 px-4 md:px-6 lg:px-10'>
+    <section className='my-20 px-4 md:px-6 lg:px-10 relative'>
         <div className="w-full space-y-5">
         <h3 className="text-2xl font-semibold capitalize text-center">Plan your trip now</h3>
         <h1 className="text-4xl font-bold  text-center">Quick and easy car rental</h1>

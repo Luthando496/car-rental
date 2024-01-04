@@ -2,16 +2,20 @@ import React from 'react'
 import CustomHeader from '../components/CustomHeader'
 import { FaCarSide,FaBuilding  } from "react-icons/fa";
 import { GiHomeGarage } from "react-icons/gi";
+import Footer from '../components/Footer'
+import PlanTrip from '../components/PlanTrip'
+
+
 
 const About = () => {
   return (
-    <section className='w-full'>
+    <>
         <CustomHeader title="About" />
 
-        <div className="w-full py-28 bg-slate-50 px-8 lg:px-32">
+        <section className="w-full py-24 bg-slate-50 px-8 lg:px-32">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 <div className="col-span-1 ">
-                    <img src="https://images.pexels.com/photos/601170/pexels-photo-601170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="people" className="w-full object-center h-full" />
+                    <img src="https://images.pexels.com/photos/601170/pexels-photo-601170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="people" className="w-full object-cover h-full" />
                 </div>
 
 
@@ -61,8 +65,12 @@ const About = () => {
                 </div>
             </div>
 
-        </div>
-    </section>
+        </section>
+
+        <PlanTrip />
+        
+        <Footer />
+    </>
   )
 }
 
