@@ -7,7 +7,7 @@ const Testimonials = () => {
     <section className="w-full bg-gray-200/60 py-28 px-5 ">
       <div className="text-center space-y-6 ">
         <h2 className="text-2xl font-semibold">Review by People</h2>
-        <h1 className="text-5xl font-bold text-black/70">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black/70">
           Client's Testimonials
         </h1>
         <p className="text-gray-500 font-medium">

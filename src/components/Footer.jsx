@@ -13,11 +13,11 @@ const Footer = () => {
                 
                 <div className="flex gap-3 items-center mt-10">
                     <MdPhoneEnabled size={30} className='text-amber-500' />
-                    <p className="text-gray-900 text-xl font-medium">+234 803 234 5678</p>
+                    <p className="text-gray-900  font-medium">+234 803 234 5678</p>
                 </div>
                 <div className="flex gap-3 items-center mt-2">
-                    <CiMail size={30}  />
-                    <p className="text-gray-900 text-xl font-medium">luthandodidiza197@gmail.com</p>
+                    <CiMail size={30} className='text-amber-500'  />
+                    <p className="text-gray-900  font-medium">luthandodidiza197@gmail.com</p>
                 </div>
             </div>
             {/* Locations */}
@@ -26,19 +26,19 @@ const Footer = () => {
 
                 <ul className="flex flex-col gap-4 mt-8">
                     <li className="">
-                        <span className="capitalize font-semibold">Cape Town</span>
+                        <span className="capitalize font-semibold hover:text-amber-600 hover:font-bold duration-1000 cursor-pointer">Cape Town</span>
                     </li>
                     <li className="">
-                        <span className="capitalize font-semibold">Durban</span>
+                        <span className="capitalize font-semibold hover:text-amber-600 hover:font-bold duration-1000 cursor-pointer">Durban</span>
                     </li>
                     <li className="">
-                        <span className="capitalize font-semibold">California</span>
+                        <span className="capitalize font-semibold hover:text-amber-600 hover:font-bold duration-1000 cursor-pointer">California</span>
                     </li>
                     <li className="">
-                        <span className="capitalize font-semibold">San francisco</span>
+                        <span className="capitalize font-semibold hover:text-amber-600 hover:font-bold duration-1000 cursor-pointer">San francisco</span>
                     </li>
                     <li className="">
-                        <span className="capitalize font-semibold">London</span>
+                        <span className="capitalize font-semibold hover:text-amber-600 hover:font-bold duration-1000 cursor-pointer">London</span>
                     </li>
                 </ul>
             </div>

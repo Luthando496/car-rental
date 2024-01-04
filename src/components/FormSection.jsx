@@ -8,7 +8,7 @@ const FormSection = () => {
         <form  className="w-full p-6 shadow-lg">
             <h3 className="text-xl font-bold">Book a car</h3>
 
-            <div className="grid grid-cols-3 gap-x-4 mt-10 items-center gap-y-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 mt-10 items-center gap-y-10">
 
             <article className="w-full col-span-1">
                 <div className="flex items-center gap-6">
