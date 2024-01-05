@@ -1,33 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-@media screen and (max-width:1105px) {
-  .my-text{
+@media screen and (max-width: 1105px) {
+  .my-text {
     font-size: 15px;
     font-weight: 600;
   }
-  
 }
-.faq_box{
-transition-property: all;
-transition-duration: 0.4s;
-transition-timing-function: ease;
-transition-delay: 0s;
+.faq_box {
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 
-.text-star::after{
+.text-star::after {
   content: "*";
   font-size: 30px;
   color: #ff0d0d;
@@ -36,32 +32,54 @@ transition-delay: 0s;
   right: -18px;
 }
 
-.bg-image{
-  background: linear-gradient(rgba(139, 136, 136, 0.048),rgba(190, 184, 184, 0.034)),url('./assets/images/mobile-bg.png');
+.bg-image {
+  background: linear-gradient(
+      rgba(139, 136, 136, 0.048),
+      rgba(190, 184, 184, 0.034)
+    ),
+    url("./assets/images/mobile-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 70vh;
 }
 
-@media screen and (max-width:1000px) {
-  .bg-image{
-    background:linear-gradient(rgba(139, 136, 136, 0.048),rgba(190, 184, 184, 0.034));
+@media screen and (max-width: 1000px) {
+  .bg-image {
+    background: linear-gradient(
+      rgba(139, 136, 136, 0.048),
+      rgba(190, 184, 184, 0.034)
+    );
   }
-  
 }
 
-.bg-about{
-  background: linear-gradient(rgba(80, 79, 64, 0.103),rgba(170, 141, 141, 0.021)),url('./assets/images/pexels-abdulwahab-alawadhi-3422964.jpg');
+.bg-about {
+  background: linear-gradient(
+      rgba(80, 79, 64, 0.103),
+      rgba(170, 141, 141, 0.021)
+    ),
+    url("./assets/images/pexels-abdulwahab-alawadhi-3422964.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 60vh;
 }
 
-.bg-number{
-  background: linear-gradient(rgba(24, 23, 13, 0.699),rgba(32, 31, 31, 0.637)),url('./assets/images/pexels-mike-bird-112460.jpg');
+.bg-number {
+  background: linear-gradient(rgba(24, 23, 13, 0.699), rgba(32, 31, 31, 0.637)),
+    url("./assets/images/pexels-mike-bird-112460.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.bg-contact {
+  background: url("./assets/images/bg-contact.c178c6db0f988d408d94.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-shadow{
+  box-shadow: 0 9px 8px rgba(0, 0, 0, 0.2);
 }
