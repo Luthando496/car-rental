@@ -7,6 +7,7 @@ import {
 import Testimonial from "./pages/Testimonial";
 import Contact from "./pages/Contact";
 import Team from "./pages/Team";
+import Models from "./pages/Models";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/team",
     element: <Team />,
+  },
+  {
+    path: "/models",
+    element: <Models />,
   },
 
 

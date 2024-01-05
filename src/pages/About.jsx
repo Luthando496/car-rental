@@ -4,6 +4,7 @@ import { FaCarSide,FaBuilding  } from "react-icons/fa";
 import { GiHomeGarage } from "react-icons/gi";
 import Footer from '../components/Footer'
 import PlanTrip from '../components/PlanTrip'
+import BackgroundContact from '../components/BackgroundContact';
 
 
 
@@ -68,7 +69,7 @@ const About = () => {
         </section>
 
         <PlanTrip />
-        
+        <BackgroundContact />
         <Footer />
     </>
   )
