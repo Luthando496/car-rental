@@ -5,7 +5,7 @@ import { MdLocationOn } from "react-icons/md";
 const FormSection = () => {
   return (
     <section className='w-full my-3 px-3 md:px-6 lg:px-10 z-10 relative'>
-        <form  className="w-full p-6 shadow-lg">
+        <div  className="w-full p-6 shadow-lg">
             <h3 className="text-xl font-bold">Book a car</h3>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 mt-10 items-center gap-y-10">
@@ -99,7 +99,7 @@ const FormSection = () => {
 
             </div>
 
-        </form>
+        </div>
         
       
     </section>

@@ -9,6 +9,7 @@ import Testimonials from '../components/Testimonials';
 import Questions from '../components/Questions';
 import Store from '../components/Store';
 import Footer from '../components/Footer';
+import CarModel from '../components/CarModel';
 
 
 
@@ -20,6 +21,7 @@ const Home =()=> {
         <Header />
         <FormSection />
         <PlanTrip />
+        <CarModel />
         <Save />
         <ChooseUs />
         <Testimonials />
