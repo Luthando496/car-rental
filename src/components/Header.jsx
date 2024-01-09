@@ -14,8 +14,8 @@ const Header = () => {
             <p className="text-gray-700 mt-4 font-semibold">Rent the car of your dreams. Unbeatable prices, unlimited miles,<br /> flexible pick-up options and much more</p>
 
             <div className="my-4 flex gap-5 items-center">
-              <button className="bg-yellow-500 flex items-center gap-3 hover:shadow-2xl duration-1000 text-white font-semibold py-3 px-4 rounded text-xl">Book Ride <FaCheckCircle className={30} /> </button>
-              <button className="bg-black flex items-center hover:bg-white hover:border hover:border-black hover:text-black text-white font-semibold py-3 px-4 rounded text-xl duration-1000">Learn More <IoIosArrowForward size={30} className='ml-3 ' /> </button>
+              <button className="bg-yellow-500 flex items-center gap-3 hover:shadow-2xl duration-1000 text-white font-semibold py-3 px-4 rounded text-sm md:text-xl">Book Ride <FaCheckCircle className={30} /> </button>
+              <button className="bg-black flex items-center hover:bg-white hover:border hover:border-black hover:text-black text-white font-semibold py-3 px-4 rounded text-sm md:text-xl duration-1000">Learn More <IoIosArrowForward size={30} className='ml-3 ' /> </button>
             </div>
         </div>
         </article>

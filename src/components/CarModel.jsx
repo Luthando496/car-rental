@@ -26,7 +26,7 @@ const CarModel = () => {
     
     </div>
 
-        <div className="w-full grid grid-cols-4 gap-4 mt-20 items-start">
+        <div className="w-full grid grid-col-1 lg:grid-cols-4 gap-4 mt-20 items-start">
 
         <article className="w-full col-span-1">
             <ul className="flex flex-col gap-5">
