@@ -10,10 +10,8 @@ const PlanTrip = () => {
         <h3 className="text-2xl font-semibold capitalize text-center">Plan your trip now</h3>
         <h1 className="text-4xl font-bold  text-center">Quick and easy car rental</h1>
         </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-8">
             
-
             {/*  */}
             <div className="w-full col-span-1 flex flex-col items-center gap-5 text-center">
                 <img src={logoCar} alt="logo-image" className="n w-40 h-30" />
