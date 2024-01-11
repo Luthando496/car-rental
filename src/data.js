@@ -25,7 +25,7 @@ export const cars = [
     },
     {
         id: 2,
-        make: 'Audi',
+        make: 'Luxury Car',
         price: 25,
         image:'../images/audi-s3-2020-2022-1627798082.0710783.jpg',
         model: 'S3',
@@ -47,7 +47,7 @@ export const cars = [
     },
     {
         id: 4,
-        make: 'Kia',
+        make: 'Horizon',
         price: 25,
         image:'../images/bd_frontquarter_horizon-blue_bbl.jpg',
         model: 'Horizon',

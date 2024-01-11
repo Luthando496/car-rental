@@ -14,6 +14,8 @@ const FormSection = () => {
   const cars = useManage((state) => state.cars);
   const addCar = useManage((state) => state.addCar);
   const vehicle = useManage((state) => state.vehicle);
+  const success = useManage((state) => state.success);
+  const changeSuccess = useManage((state) => state.changeSuccess);
 
   const [motors, setMotors] = useState(cars);
   const [error,setError] = useState(false);
@@ -44,23 +46,25 @@ const FormSection = () => {
     }else{
       addCar({make: make, pickUpLocation: pickUpLocation, dropUpLocation: dropUpLocation, pickDate})
       console.log(vehicle)
-
+      setError(false)
       modal.current.open()
       return;
     }
     
+    // if(success === true){
+    //   modal.current.close()
+    //   setSuccess(true)
+    //   return;
+    // }
     
-
+    
   };
 
 
-  const changeCar = (e) => {
-    console.log({[e.target.name]: e.target.value});
-  };
 
   return (
     <>
-    <Modal ref={modal} />
+    <Modal  ref={modal} />
     <section className="w-full my-3 px-3 md:px-6 lg:px-10 z-10 relative">
       <div className="w-full p-6 shadow-lg bg-white">
         <h3 className="text-xl font-bold">Book a car</h3>
@@ -69,6 +73,12 @@ const FormSection = () => {
           <h3 className="text-lg text-red-600 font-semibold">All fields required! </h3>
 
           <LiaTimesSolid onClick={()=> setError(!error)} className="text-xl text-red-700 cursor-pointer" />
+        
+        </div>)}
+        {success && (<div className="my-5 py-2 px-4 bg-green-300 flex justify-between items-center rounded-lg">
+          <h3 className="text-lg text-green-600 font-semibold">Check your email to confirm an order </h3>
+
+          <LiaTimesSolid onClick={changeSuccess} className="text-xl text-green-700 cursor-pointer" />
         
         </div>)}
 

@@ -12,10 +12,12 @@ const Header = () => {
             <h3 className="text-xl font-semibold mb-2">Plan You Trip Now</h3>
             <h3 className="text-3xl md:text-5xl  lg:text-6xl leading-[1.3] font-bold">Save <span className="text-yellow-500">big</span> with our <br /> car rental</h3>
             <p className="text-gray-700 mt-4 font-semibold">Rent the car of your dreams. Unbeatable prices, unlimited miles,<br /> flexible pick-up options and much more</p>
-
+            <div className="w-full flex justify-center md:block">
             <div className="my-4 flex gap-5 items-center">
               <button className="bg-yellow-500 flex items-center gap-3 hover:shadow-2xl duration-1000 text-white font-semibold py-3 px-4 rounded text-sm md:text-xl">Book Ride <FaCheckCircle className={30} /> </button>
               <button className="bg-black flex items-center hover:bg-white hover:border hover:border-black hover:text-black text-white font-semibold py-3 px-4 rounded text-sm md:text-xl duration-1000">Learn More <IoIosArrowForward size={20} className='ml-3 ' /> </button>
+            </div>
+            
             </div>
         </div>
         </article>
