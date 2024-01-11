@@ -25,7 +25,7 @@ const Header = () => {
         <article className="col-span-1 hidden md:block">
 
         <img src={carImage} alt="car-image-header" className="z-10" />
-        <img src="https://car-rental-ten.vercel.app/static/media/hero-bg.3b5f7a2502f0f81d1490.png" alt="background-hero" className="absolute top-0 right-0 z-[-1] " />
+        <img src="../images/hero-bg.3b5f7a2502f0f81d1490.png" alt="background-hero" className="absolute top-0 right-0 z-[-1] " />
 
         </article>
 
